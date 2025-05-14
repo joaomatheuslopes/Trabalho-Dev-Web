@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Sobre - Café Brasil</title>
+  <link href="assets/css/bootstrap.css" rel="stylesheet">
+  <link href="assets/css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="assets/images/logo-cafe.jpg" alt="Café Brasil" style="height: 50px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
+          <li class="nav-item"><a class="nav-link active" href="sobre.html">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+        </ul>
+        <a href="#modalLogin" class="btn btn-outline-dark" data-bs-toggle="modal"><i class="fas fa-user"></i> Entrar</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5 pt-5">
+    <h1 class="text-center mb-4">Sobre o Café Brasil</h1>
+    <p class="text-center">O Café Brasil é uma marca apaixonada pelo cultivo e produção do melhor café artesanal. Trabalhamos diretamente com produtores de diversas regiões do Brasil para oferecer a você uma experiência única em cada xícara.</p>
+    <p>Nosso compromisso é entregar um café de qualidade excepcional, com sabor inconfundível e aromas irresistíveis. Cada grão é cuidadosamente selecionado, e nossos processos de torra são feitos com precisão para preservar os melhores sabores.</p>
+    <p>Visite nossas fazendas e descubra o processo por trás de cada blend, aprendendo sobre as origens e como trabalhamos para levar até você o café mais fresco e autêntico do Brasil.</p>
+  </div>
+
+  <footer class="bg-dark text-light mt-auto p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Café Brasil</h5>
+          <p>O melhor do café artesanal direto da fazenda para sua xícara.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p><i class="fas fa-envelope"></i> contato@cafebrasil.com</p>
+          <p><i class="fas fa-phone"></i> (21) 99999-9999</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="modalLoginLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalLoginLabel">Entrar</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="senha" class="form-label">Senha</label>
+              <input type="password" class="form-control" id="senha" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Entrar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/bootstrap.js"></script>
+</body>
+</html>

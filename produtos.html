@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Produtos - Café Brasil</title>
+  <link href="assets/css/bootstrap.css" rel="stylesheet">
+  <link href="assets/css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="assets/images/logo-cafe.jpg" alt="Café Brasil" style="height: 50px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link active" href="produtos.html">Produtos</a></li>
+          <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+        </ul>
+        <a href="#modalLogin" class="btn btn-outline-dark" data-bs-toggle="modal"><i class="fas fa-user"></i> Entrar</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5 pt-5">
+    <h1 class="text-center mb-4">Todos os Produtos</h1>
+    <div class="table-responsive">
+      <table class="table table-hover">
+        <thead class="table-dark">
+          <tr>
+            <th>Produto</th>
+            <th>Descrição</th>
+            <th>Preço</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Café Orgânico Premium</td>
+            <td>Sabor intenso, notas de chocolate e aroma marcante.</td>
+            <td>R$ 25,00</td>
+          </tr>
+          <tr>
+            <td>Café do Cerrado Mineiro</td>
+            <td>Produzido com grãos selecionados da região do cerrado.</td>
+            <td>R$ 28,00</td>
+          </tr>
+          <tr>
+            <td>Blend Especial da Casa</td>
+            <td>Mistura exclusiva para quem ama um bom espresso.</td>
+            <td>R$ 30,00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-light mt-auto p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Café Brasil</h5>
+          <p>O melhor do café artesanal direto da fazenda para sua xícara.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p><i class="fas fa-envelope"></i> contato@cafebrasil.com</p>
+          <p><i class="fas fa-phone"></i> (21) 99999-9999</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="modalLoginLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalLoginLabel">Entrar</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="senha" class="form-label">Senha</label>
+              <input type="password" class="form-control" id="senha" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Entrar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/bootstrap.js"></script>
+</body>
+</html>
